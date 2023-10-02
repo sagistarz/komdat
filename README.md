@@ -100,19 +100,27 @@
 Cara pemakaian aplikasi web FocusStopwatch termasuk mudah, karena. Berikut adalah lengkap nya : 
    1. Pada tampilan utama, terlihat interface yang mudah dimengerti. Kita perlu login ke dalam aplikasi.
       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/1homepage.png)
-   3. Kita perlu memasukkan email agar report hasil data bisa tersimpan
-   4. Perlu dilakukannya confirm your mail untuk verifikasi email
-   5. Tampilan setelah login
-   6. Tekan tombol Start, maka stopwatch akan mulai bekerja
-   7. Jika, sudah merasa terdistraksi, maka tekan tombol Reset and Lap. FocusStopwach akan mencatat seberapa lama waktu fokus.
-   8. Jika ingin memulai kembali, tekan tombol Start. Maka, lap 2 akan dimulai.
-   9. Jika ingin mencatat hasil fokus pada lap 2, tekan tombol Reset and Lap kembali. Maka waktu fokus pada lap 2 akan tercatat.
-   10. Jika sudah selesai menggunakan FocusStopwatch, tekan tombol Finish Stopwatch untuk balik ke tampilan awal.
-   11. Tekan tombol Report untuk melihat rekaman waktu fokus yang telah dijalankan
+   2.  Kita perlu memasukkan email agar report hasil data bisa tersimpan
+      ![alt text](https://github.com/sagistarz/komdat/blob/main/image/2sendemail.png)
+   3. Perlu dilakukannya confirm your mail untuk verifikasi email
+      ![alt text](https://github.com/sagistarz/komdat/blob/main/image/3email.png)
+   4. Tampilan setelah login
+      ![alt text](https://github.com/sagistarz/komdat/blob/main/image/4signin.png)
+   5. Tekan tombol Start, maka stopwatch akan mulai bekerja
+      ![alt text](https://github.com/sagistarz/komdat/blob/main/image/5start.png)
+   6. Jika, sudah merasa terdistraksi, maka tekan tombol Reset and Lap. FocusStopwach akan mencatat seberapa lama waktu fokus.
+       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/6reset.png)
+   7. Jika ingin memulai kembali, tekan tombol Start. Maka, lap 2 akan dimulai.
+       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/7startagain.png)
+   8. Jika ingin mencatat hasil fokus pada lap 2, tekan tombol Reset and Lap kembali. Maka waktu fokus pada lap 2 akan tercatat.
+       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/8resetagain.png)
+   9. Jika sudah selesai menggunakan FocusStopwatch, tekan tombol Finish Stopwatch untuk balik ke tampilan awal.
+       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/9stop.png)
+   10. Tekan tombol Report untuk melihat rekaman waktu fokus yang telah dijalankan
+       ![alt text](https://github.com/sagistarz/komdat/blob/main/image/10reportIn.png)
 
 Dalam penggunaan aplikasi web FocusStopwatch, penting untuk melakukan proses Sign in. Tanpa melakukan Sign in, report (laporan) mengenai penggunaan aplikasi kita tidak akan terekam. Berikut adalah perbandingan tangkapan layar dari report (laporan) penggunaan tanpa Sign in.
-
-
+![alt text](https://github.com/sagistarz/komdat/blob/main/image/11reportOut.png)
 
 
 # Pembahasan
