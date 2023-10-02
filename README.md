@@ -120,7 +120,7 @@ Cara pemakaian aplikasi web FocusStopwatch termasuk mudah, karena. Berikut adala
        ![alt text](https://github.com/sagistarz/komdat/blob/main/image/10reportIn.png)
 
 Dalam penggunaan aplikasi web FocusStopwatch, penting untuk melakukan proses Sign in. Tanpa melakukan Sign in, report (laporan) mengenai penggunaan aplikasi kita tidak akan terekam. Berikut adalah perbandingan tangkapan layar dari report (laporan) penggunaan tanpa Sign in.
-![alt text](https://github.com/sagistarz/komdat/blob/main/image/11reportOut.png)
+   ![alt text](https://github.com/sagistarz/komdat/blob/main/image/11reportOut.png)
 
 
 # Pembahasan
