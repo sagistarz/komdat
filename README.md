@@ -21,7 +21,7 @@
 - RAM minimal 64 Mb+
 
 #### Proses Instalasi :
-1. setup Docker via DockerFile.
+1. Setup Docker via DockerFile.
    ```
     # Step 1: Build the Vue.js application
     FROM node:17 as build-stage
@@ -38,7 +38,7 @@
     CMD ["nginx", "-g", "daemon off;"]
    ```
 
-2. setup Docker Compose bikin via docker-compose.yml.
+2. Setup Docker Compose dengan cara bikin via docker-compose.yml.
    ```
     version: '3'
     
@@ -54,7 +54,7 @@
           - "80:80"
    ```
 
-3. setup server pake Nginx, lewat nginx.conf
+3. Setup server pake Nginx melalui nginx.conf.
    ```
     server {
         listen 80;
@@ -67,28 +67,30 @@
     }
     ```
    
-4. establish komunikasi sama server, pake protokol ssh. jalanin di terminal. contoh command:
+4. Establish komunikasi dengan server menggunakan protokol ssh. Jalankan di terminal.
+   Contoh command :
    ```
      ssh -p 10422 ubuntu@103.6.53.254
    ```
 
-5. pindahin file yang kita punya ke server, pake protokol scp. contoh command:
+6. Pindahkan file yang kita punya ke server menggunakan protokol scp.
+   contoh command :
    ```
      scp -P 10422 -r /Users/muhammadhilmytsaqifveradin/Documents/FRONTEND/focus-stopwatch-vue/focus-stopwatch ubuntu@103.6.53.254:/home/ubuntu/focus-stopwatch
    ```
 
-6. install aplikasi-aplikasi yang berhubungan sama aplikasi kita di server, yaitu:
+8. Install aplikasi-aplikasi yang berhubungan dengan aplikasi kita di server, yaitu :
    - docker
    - docker-compose
    - node version 17
    - nginx
 
-7. jalanin docker compose-nya, pakai command:
+9. Jalankan docker compose-nya menggunakan command :
    ```
      docker-compose up -d --build
    ```
 
-8. cek aplikasi udah jalan pake ip:port, dalam kasus ini berarti:
+10. Cek aplikasi udah jalan pake ip:port, dalam kasus ini berarti :
    ```
      http://103.6.53.254:10480. ip kita: 103.6.53.254, port-nya: 10480
    ```
